@@ -9,4 +9,5 @@ install:
 script:
   - |
       pylint --version
+      pip freeze
       pylint bug;
